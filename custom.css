@@ -1,0 +1,326 @@
+body {
+  font-family: serif;
+    margin: 0;
+    background: #e8e8e8;
+}
+
+.img-brand {
+  float: left;
+  height: 130px;
+}
+
+.icon-social {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 1%;
+}
+
+.navbar {
+  transition: all .4s ease-in-out;
+  height: 60px;
+  border: none;
+  border-radius: 0;
+  background: #d7d7d7;
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-size: 18px;
+  line-height: 30px;
+  color: black;
+  font-weight: 700;
+}
+
+
+.container {
+  padding: 0 15px;
+}
+
+.barra-busqueda {
+  margin: 10px;
+}
+
+.registro-nuevo{
+  position: absolute;
+  right: 40px;
+}
+
+.fila-par {
+    background-color: rgb(240, 240, 240);
+}
+
+.fila-impar {
+    background-color: #FFFFFF;
+}
+
+table .cabecera {
+    background-color: #e7e7e7;
+}
+
+table td {
+  vertical-align: middle !important ;
+}
+
+th:hover{
+
+    background:#AAA;
+
+}
+
+th, td, tr {
+    text-align: center;
+    width: auto;
+    color: #000000;
+}
+
+.seleccionada {/*se define un color para las filas seleccionadas de la tabla*/
+    background-color: #5fe75f;
+    color: #FFFFFF;
+}
+
+.bienvenida {
+  font-size:5vmax;
+  text-align: center;
+}
+
+.panel {
+  overflow: hidden;
+}
+
+.panel-primary{
+    border: none;
+    padding: 10px;
+}
+
+.col-md-6{
+    padding-left:0;
+    padding-right:2px;
+}
+
+.form-control:focus{
+    border-color: #4ee44e
+}
+
+input[type="number"]{
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  margin: 0;
+}
+
+/* Chrome Fallback */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      margin: 0;
+}
+
+
+#guardarCambios{
+    background-color: #B1EEA5;
+}
+
+#jumbo-titulo{
+    background: transparent;
+    color: #000000;
+}
+
+.row {
+    margin: 0;
+}
+
+.formulario{
+    border: 2px solid green;
+    padding: 50px 10px;
+    text-align: center;
+    margin: 10% 15%;
+}
+
+form .panel-body {
+  padding: 20px;
+}
+
+.botones-accion {
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.panel-body {
+  box-shadow: -2px 2px 5px black;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.img-responsive {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+}
+
+.profile-name {
+  position: relative;
+  height: 100px;
+}
+
+.btn-sm {
+  font-weight: 500;
+  /*text-shadow: 0 0 20px black;*/
+  margin: 2px;
+}
+
+.nombre-curso {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  text-align: center;
+  font-size: 5vmax;
+  font-weight: bold;
+
+  width: 100%;
+}
+
+.descripcion {
+  margin: 10px;
+}
+
+.panel-body button{
+  margin: 10px;
+}
+
+.horizontal-divider {
+  clear: both;
+  height: 1px;
+  background: #AAA;
+}
+
+
+label {
+    float: left;
+    color: #000000;
+}
+
+.panel-lista {
+    width: 70vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.contenido {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+h1 {
+  margin: 0 10px 0;
+}
+
+img.bg {
+    /* Establezca reglas para el relleno de fondo */
+    min-height: 100%;
+    min-width: 100%;
+    /* Establecer la escala proporcional */
+    width: 100%;
+    height: 120%;
+    /* Establecer posicion */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+video {
+    width: 70vw;
+    position: relative;
+    margin: 5vh 15vw;
+    z-index: -1;
+}
+
+.btn-ttc, .btn-ttc:hover, .btn-ttc:active {
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #007da7;
+}
+
+
+/* Aplicar gradientes de colores */
+
+
+/* Nota: no se muestran aquí todos los gradientes que tendrás que
+   definir para los diferentes navegadores. */
+
+.btn-ttc {
+    background-repeat: repeat-x;
+    background: linear-gradient(#009ED2 0%, #007DA7 100%);
+}
+
+
+/* Estilos del estado :hover del botón */
+
+
+/* Uno de los estilos más sencillos y eficaces para el estado :hover
+   consiste en subir hacia arriba ligeramente la imagen de fondo del
+   botón, pero puedes definir otros estilos adicionales si quieres. */
+
+.btn-ttc:hover {
+    background-position: 0 -15px;
+}
+
+.login {
+    box-shadow: 0 0 10px 2px black;
+    width: 350px;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .container {
+    width: 95vw;
+  }
+
+  .header {
+      width:33.3333%;
+      height: 90px;
+      background: white;
+      margin: 0 auto;
+      padding: 20px;
+  }
+  .header2 {
+    float: right;
+    width: 30%;
+    height: 90px;
+    background: white;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .header3 {
+      width: 70%;
+      height: 90px;
+      float: left;
+      background: white;
+      margin: 0 auto;
+
+  }
+
+  img .bg {
+      left: 50%;
+      margin-left: -512px;
+  }
+
+  .nombre-curso {
+    font-size: 3vmin;
+  }
+
+  .img-brand {
+    margin: 10px 20px;
+    width: auto;
+    height: 70px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .nombre-curso {
+    font-size: 4vmin;
+  }
+}

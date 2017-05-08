@@ -1,0 +1,240 @@
+/*Titulos*/
+
+#footer {
+  
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+h1 { color:#ec585a;  /*Color*/
+text-align:center; /*Alineacion del texto*/
+padding: inherit; /*relleno de la caja*/
+
+
+}
+/*cabecera*/
+header.h{
+    text-align:center;
+    padding:5px;	/*relleno de la caja*/ 
+    border-style: solid; /*estilo del borde*/
+    border-color: #ec585a; /*color del borde*/
+   
+    background-color: #F9FFB7; /*color de fondo*/
+     height: 130px; /*Le establecemos el largo*/
+    width: auto; /*Le establecemos un ancho*/
+position: left;
+    font-family:Arial, Helvetica, sans-serif; /*letra*/
+    
+}
+
+body{
+    width: 100%; /*Le establecemos un ancho*/
+}
+
+
+/*listas*/
+ul, ol {
+    list-style:none;
+}
+
+
+/*todos los nav*/
+.nav {
+    width:1000px; /*Le establecemos un ancho*/
+    margin:0 auto; /*Centramos automaticamente*/
+     
+                
+}
+/*listas dentro de los nav*/
+.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+                
+				background-color:#ec585a;
+				color:#cbd896;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+                   
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+/*Todos los parrafos que sean parrafo1*/
+P.parrafo1 {
+            margin-top:20px;
+            margin-left:6%;
+       
+        float:left;
+        text-align: center;
+        
+    background-image:url(Imagenes/puzzle.png);
+    
+   
+    font-size: 1.5em;
+        height: 400px;
+    width: 900px;
+    color: white;
+}
+
+/*Todos los parrafo2 dentro de los div*/
+DIV.parrafo2 {
+            margin-top:20px;
+            margin-left:6%;
+       
+        float:left;
+        text-align: center;
+        
+   
+     background-color:#ec585a;
+    background-repeat: no-repeat;
+   /*background-attachment: fixed;*/
+    background-position: center center; 
+   
+    font-size: 1.5em;
+    height: 400px;
+    width: 900px;
+    color: black;
+    text-align : justify;
+  
+} 
+
+
+/*Todos los login dentro de los div*/
+
+div.login{
+    
+   float: right;
+   margin-right:  -800px; 
+} 
+
+/*Todos los titulo dentro de los div*/
+
+div.titulo{
+    
+    float: left;
+  margin-left: 400px ;
+    
+}
+ #formulario {
+    /* Sólo para centrar el formulario a la página */
+  
+    width: 500px;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+   
+}
+
+#Tabla{
+    background: white;
+    padding-left: 220px; 
+    border-style: double;
+}
+
+#formulario{
+    background: white;
+    padding-left: 220px; 
+    border-style: double;
+    margin-left: 20%;
+}
+
+/*************************************************************************/
+.registro-nuevo{
+  position: absolute;
+  right: 40px;
+}
+
+.barra-busqueda {
+  margin: 10px;
+}
+table .cabecera {
+    background-color: #e7e7e7;
+}
+table .cuerpo {
+    background-color: aliceblue;
+}
+
+table td {
+  vertical-align: middle !important ;
+}
+
+
+th:hover{
+
+    background:#AAA;
+
+}
+
+/*Elemtnos de una tabla*/
+th, td, tr {
+    text-align: center;
+    width: auto;
+    color: #000000;
+}
+
+.seleccionada {/*se define un color para las filas seleccionadas de la tabla*/
+    background-color: #5fe75f;
+    color: #FFFFFF;
+}
+
+.form-control:focus{
+    border-color: #4ee44e
+}
+
+div.hidden {
+    visibility: hidden;
+}
+
+
+#listaD{ background: #FAFAB5;}
+
+
+
+/*
+form {
+      
+    width: 400px;
+    font: normal bold 12px Verdana, Arial;
+}
+
+form label {
+    width: 150px;
+}
+
+form input {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+
+*/
+			
+		
